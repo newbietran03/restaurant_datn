@@ -8,9 +8,6 @@ use App\Http\Controllers\Backend\CategoriesController;
 use App\Http\Controllers\Backend\NewsController;
 use App\Http\Controllers\Backend\AdminController;
 use App\Http\Controllers\Backend\CommentController;
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
 Route::get('/dashboard', function () {
     return view('dashboard');
